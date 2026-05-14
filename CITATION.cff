@@ -21,8 +21,13 @@ authors:
     orcid: "https://orcid.org/0000-0001-6165-7389"
     affiliation: "Northwest Missouri State University, School of Computer Science and Information Systems, Maryville, MO, USA"
 
-repository-code: "https://github.com/denisecase/streaming-01-foundations"
-url: "https://github.com/denisecase/streaming-01-foundations"
+  - family-names: Sowers
+    given-names: Sabriya S.
+    orcid: "https://orcid.org/0000-0001-6165-7389"
+    affiliation: "Northwest Missouri State University, School of Computer Science and Information Systems, Maryville, MO, USA"
+
+repository-code: "https://github.com/ssowers2/streaming-01-foundations"
+url: "https://github.com/ssowers2/streaming-01-foundations"
 license: MIT
 
 abstract: >
