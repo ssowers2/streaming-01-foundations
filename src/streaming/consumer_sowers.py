@@ -1,4 +1,4 @@
-"""src/streaming/consumer_case.py - Local consumer example.
+"""src/streaming/consumer_sowers.py - Local consumer example.
 
 Reads messages from a local simulated topic file
 and writes consumed records to a local output file one message at a time.
@@ -9,12 +9,12 @@ Work up to see how it all fits together.
 Many functions are standard helpers
 and should not need project-specific modifications.
 
-Author: Denise Case
+Author: Sabriya Sowers
 Date: 2026-05
 
 Terminal command to run this file from the root project folder:
 
-    uv run python -m streaming.consumer_case
+    uv run python -m streaming.consumer_sowers
 
 OBS:
   Don't edit this file - it should remain a working example.
@@ -47,7 +47,7 @@ log_env_vars(LOG)
 
 # WHY: These defaults intentionally do not match .env.example.
 # If they appear in the log, copy .env.example to .env and try again.
-DEFAULT_TOPIC_NAME: Final[str] = "missing-env-copy-env-example"
+DEFAULT_TOPIC_NAME: Final[str] = "streaming-01-sowers"
 DEFAULT_MAX_MESSAGES: Final[str] = "2"
 DEFAULT_POLL_INTERVAL_SECONDS: Final[str] = "0.5"
 DEFAULT_TIMEOUT_SECONDS: Final[str] = "3.0"
@@ -74,7 +74,7 @@ DATA_DIR: Final[Path] = ROOT_DIR / "data"
 OUTPUT_DIR: Final[Path] = DATA_DIR / "output"
 
 TOPIC_CSV: Final[Path] = OUTPUT_DIR / f"{TOPIC_NAME}.csv"
-OUTPUT_CSV: Final[Path] = OUTPUT_DIR / "consumed_sales.csv"
+OUTPUT_CSV: Final[Path] = OUTPUT_DIR / "consumed_sales_sowers.csv"
 
 
 # ==========================================================

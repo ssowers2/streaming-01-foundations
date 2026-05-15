@@ -1,6 +1,6 @@
-"""src/streaming/producer_case.py - Local producer example.
+"""src/streaming/producer_sowers.py - Local producer example.
 
-Reads sales from data/sales.csv
+Reads sales from data/sales_sowers.csv
 and writes records to a local simulated topic file one message at a time.
 
 Start with main() at the bottom.
@@ -9,12 +9,12 @@ Work up to see how it all fits together.
 Many functions are standard helpers
 and should not need project-specific modifications.
 
-Author: Denise Case
+Author: Sabriya Sowers
 Date: 2026-05
 
 Terminal command to run this file from the root project folder:
 
-    uv run python -m streaming.producer_case
+    uv run python -m streaming.producer_sowers
 
 OBS:
   Don't edit this file - it should remain a working example.
