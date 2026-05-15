@@ -433,3 +433,22 @@ You can split terminals shown below, or just click between them as you like.
 | C01 | Consumer executed successfully!
 | C01 | ========================
 ```
+
+## Modification
+
+I modified `producer_sowers.py` by adding new fields to the streaming messages:
+
+- `processed_by`
+- `data_use`
+
+I also updated the Kafka topic name to `streaming-01-sowers` in the `.env` file so the
+project creates its own output file.
+
+### Why I made the change
+
+I wanted to practice modifying streaming data and make the project more personalized
+to my healthcare BI background.
+
+### What I observed
+
+After running the producer and consumer files, the new fields appeared in the output CSV file `streaming-01-sowers.csv`.
